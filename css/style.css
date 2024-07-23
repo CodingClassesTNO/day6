@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+/* external CSS */
+*,html{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* nav settings */
+    .navSettings{
+        /* background-color: black; */
+        /* background-color: #e2f045; */
+        color:white;
+        height:80px;
+   
+
+    }
+    
+    .navSettings > a{
+        color:#000000;
+        
+        vertical-align: top;
+        height: 80px;
+        line-height: 80px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 800;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    }
+   
+   .navSettings > a:nth-child(6){
+        color:red;
+    } 
+    .siteLogo{
+      
+        vertical-align: top;
+        margin-top: 12px;
+        /* height:50px; */
+        width:50px;
+        height:auto;
+    }
+
+   
+/* end of nav settings */
+
+/* header settings */
+        
+        .headerSettings{
+            height:200px;
+            background-color: #a9bce8;
+        
+        }
+       .siteName{
+           
+            font-family: "Playwrite CU", cursive;
+            /* font-optical-sizing: auto; */
+            font-weight: 800;
+            font-style: normal;
+            font-size: 50px;
+       }
+       .nameInfo{
+ 
+            font-family: "Concert One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+       
+       }
+   
+        /* site name and info align settings */
+        .alignSettings{
+            text-align: center;
+            color: #3a093a;
+        }
+        /* end of align settings */
+
+/* end of header settings */
+
+
+
+/* main element settings */
+        .mainSettings{
+            height:600px;
+            background-color: rgb(193, 234, 193);
+        }
+
+      
+/* end of main settings */
+
+
+/* footer settings */
+        .footSettings{
+            height:80px;
+            background-color: rgb(220, 219, 243);
+        }
+        .logoCopyright{
+            font-size: 15px;
+        }
+/* end of footer settings */
